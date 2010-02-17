@@ -12,7 +12,7 @@ module Prawn
 
     # Adds compatibility with the current stable version of prawn 
     #
-    alias text draw_text
+    alias draw_text text
 
     # Draws a fairly simple bar chart. Data should be passed in as an array of
     # arrays, much like how Tables are dealt with:

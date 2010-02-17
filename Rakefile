@@ -2,7 +2,7 @@ require 'rubygems'
 require 'rake'
 require "rake/gempackagetask" 
 
-PRAWN_GRAPH_VERSION = '0.0.1'
+PRAWN_GRAPH_VERSION = '0.0.2'
 
 spec = Gem::Specification.new do |spec|
   spec.name = "prawn-graph"
@@ -17,7 +17,7 @@ spec = Gem::Specification.new do |spec|
   spec.has_rdoc = true
   spec.extra_rdoc_files = %w{README.markdown}
   spec.rdoc_options << '--title' << 'Prawn Documentation' <<
-                       '--main' << 'README' << '-q'
+                       '--main' << 'README.markdown' << '-q'
   spec.author = "Ryan Stenhouse"
   spec.email = " ryan@ryanstenhouse.eu"
   spec.rubyforge_project = "prawn"
