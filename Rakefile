@@ -3,7 +3,7 @@ require 'rake'
 require "rake/gempackagetask" 
 require "rake/rdoctask"
 
-PRAWN_GRAPH_VERSION = '0.0.4'
+PRAWN_GRAPH_VERSION = '0.1.0'
 
 spec = Gem::Specification.new do |spec|
   spec.name = "prawn-graph"
@@ -37,7 +37,7 @@ Rake::RDocTask.new do |rdoc|
                            "HACKING", "lib/" )
   rdoc.main     = "README.markdown"
   rdoc.rdoc_dir = "doc/html"
-  rdoc.title    = "Prawn Documentation"
+  rdoc.title    = "Prawn::Graph Documentation"
 end     
 
  
