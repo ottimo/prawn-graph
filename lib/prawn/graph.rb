@@ -8,6 +8,11 @@ require File.dirname(__FILE__) + '/graph/bar'
 require File.dirname(__FILE__) + '/graph/line'
 require File.dirname(__FILE__) + '/graph/themes'
 
+line_graph :at => [10,10], :title => 'Liter Size Per Animal Kind' do |g|
+  g.plot dataset_one, :title => 'Kittens'
+  g.plot dataset_two, :title => 'Monkeys'
+end
+
 module Prawn
 
   class Document
