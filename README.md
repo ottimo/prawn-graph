@@ -1,30 +1,14 @@
 # Prawn::Graph
 
-TODO: Write a gem description
+<p style="color: red">
+  You probably want the "stable" branch of prawn-graph. This is the WIP version to
+  bring compatibility up to version 2.0
+</p>
 
-## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'prawn-graph'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install prawn-graph
-
-## Usage
-
-TODO: Write usage instructions here
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/prawn-graph/fork )
+1. Fork it ( https://github.com/HHRy/prawn-graph/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
