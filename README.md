@@ -1,9 +1,7 @@
-# Prawn::Graph
+# Prawn::Graph   ![status](https://travis-ci.org/HHRy/prawn-graph.svg?branch=master)
 
-<p style="color: red">
-  You probably want the "stable" branch of prawn-graph. This is the WIP version to
-  bring compatibility up to version 2.0
-</p>
+You probably want the "stable" branch of prawn-graph. This is the WIP version to
+bring compatibility up to version 2.0
 
 
 ## Contributing
